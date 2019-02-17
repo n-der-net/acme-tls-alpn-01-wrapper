@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 # Path to dehydrated script and config (https://github.com/lukas2511/dehydrated)
-DEHYDRATED=./dehydrated
-DEHYDRATED_CONF=config
+DEHYDRATED=/path/to/dehydrated/executable
+DEHYDRATED_CONF=/path/to/dehydrated/config
 
 # Path to ALPN responder (https://github.com/lukas2511/dehydrated/blob/master/docs/tls-alpn.md)
-ALPN_RESP=alpn-responder.py
+ALPN_RESP=/path/to/alpn-responder.py
 
 WEBSERVER_STOP="service nginx stop"
 WEBSERVER_START="service nginx start"
